@@ -196,7 +196,7 @@ namespace DysonSphereDroneClearing
             if (GameMain.mainPlayer != null &&
                 GameMain.mainPlayer.factory != null)  // A null GameMain.mainPlayer.factory is normal during the load screen.
             {
-                for (int i = 0; i < GameMain.mainPlayer.mecha.droneCount; ++i)
+                for (int i = 0; i < GameMain.mainPlayer.mecha.constructionModule.droneCount; ++i)
                 {
                     if (GameMain.mainPlayer.mecha.drones[i].stage != 0)
                     {
